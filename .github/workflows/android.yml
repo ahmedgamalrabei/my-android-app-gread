@@ -22,5 +22,9 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
+    # الخطوة الجديدة لإنشاء الملف الناقص تلقائياً
+    - name: Create dummy .env.example file
+      run: touch .env.example
+
     - name: Build with Gradle
       run: gradle assembleDebug
