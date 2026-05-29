@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer thick circular path of G wrapping the inner page -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M78,54 C78,38 66,28 50,28 C34,28 22,40 22,54 C22,68 34,80 50,80 C62,80 72,72 76,62" />
+
+    <!-- Horizontal inner shelf of G -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M52,54 L78,54" />
+
+    <!-- A miniature white folded paper sheet resting in G -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,42 L64,42 C66,42 66,42 66,44 L66,64 C66,66 66,66 64,66 L48,66 C46,66 46,66 46,64 L46,44 C46,42 46,42 48,42 Z" />
+
+    <!-- Folded paper fold of the miniature card -->
+    <path
+        android:fillColor="#00C3FF"
+        android:pathData="M60,42 L66,48 L60,48 Z" />
+
+    <!-- Decorative lines inside miniature paper -->
+    <path
+        android:strokeColor="#0D67FE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M50,48 L56,48" />
+    <path
+        android:strokeColor="#0D67FE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M50,54 L62,54" />
+    <path
+        android:strokeColor="#0D67FE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M50,60 L58,60" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "G-Read",
+  "description": "قارئ المستندات الشامل لعرض وقراءة ملفات PDF و Word و Excel و PPT و TXT وإدارتها بسهولة وبدون إنترنت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
